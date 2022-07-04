@@ -1,0 +1,22 @@
+POST http://localhost:3000/submit
+Content-Type: application/x-www-form-urlencoded
+
+{
+    "email": "mariaeduarda@email.com",
+    "name": "Maria Eduarda"
+}
+
+###
+
+POST http://localhost:3000/delete
+Content-type: application/json
+
+{
+    "email": "mariaeduarda@email.com",
+    "name": "Maria Eduarda"
+}
+
+
+###
+
+GET http://localhost:3000/list
